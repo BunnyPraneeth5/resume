@@ -5,6 +5,17 @@ body {
     padding: 0;
     line-height: 1.6;
 }
+.dark-mode {
+    background-color: #222;
+    color: white;
+}
+
+.dark-mode .skill,
+.dark-mode .project-card {
+    background-color: #444;
+    color: white;
+}
+
 
 header {
     background-color: #007BFF;
