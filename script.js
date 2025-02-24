@@ -14,6 +14,11 @@ sections.forEach(section => {
 });
 
 // Back to Top Button
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevents page reload
+    alert('Message sent successfully!'); // Replace with actual handling
+});
+
 document.getElementById('back-to-top').addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 });
